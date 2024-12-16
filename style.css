@@ -1,0 +1,55 @@
+#board {
+/* display: grid;
+grid-template-columns: repeat(3, auto); */
+display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 550px;
+    margin: auto;
+}
+
+.box {
+width: 130px;
+ height: 130px !important;
+ /*border: solid black;
+ color: white;
+ font-size: 60px; */
+ background-color: blue;
+    border: solid 1px red;
+    height: 100px;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    }
+    h1 {
+        text-align: center;
+      }
+.black {
+background-color: black;
+    }
+    
+.hidden {
+ display: none;
+    }
+.title{
+    background-color: blue;
+    width:36%;
+    position: relative;
+    left: 30%;
+    padding: 5px 0px;
+    border: solid 1px red;
+    font-size: 30px;
+}
+#reset{
+    position: relative !important;
+    left: 45% !important;
+    font-size: 40px !important;
+    margin-top: 40px;
+}
+#p{
+    position: relative !important;
+    left: 45% !important;
+    font-size: 25px !important;
+    margin-top: 40px;
+    padding: 5px;
+}
